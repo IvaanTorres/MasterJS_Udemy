@@ -1,0 +1,49 @@
+STRING
+
+document.write(texto.concat(texto2) + "<br>"); //CONCATENA TEXTOS
+document.write(texto.trim() + "<br>"); //QUITA ESPACIOS DEL PRINCIPIO Y FINAL DEL STRING
+document.write(texto.indexOf('t') + "<br>"); //DICE LA POSICION DEL CARACTER
+document.write(texto.charAt(5) + "<br>"); //DICE EL CARACTER SEGÚN SU POSICION INDICADA
+document.write(texto.replace('todos', 'Ivan') + "<br>"); //REMPLAZA SUBSTRINGS EN EL STRING
+document.write(texto.slice(3, 12) + "<br>"); //RECORTA EL STRING EN UNA PARTE
+var array = texto.split(" "); //CREA UN ARRAY CON CADA PALABRA EN UNA POSICION DIFERENTE
+var array2 = texto.split(""); //CREA UN ARRAY CON CADA LETRA EN UNA POSICION DIFERENTE
+var array3 = texto.split(); //CREA UN ARRAY CON TODO EL STRING EN UNA MISMA POSICION
+document.write(texto.includes("todos") + "<br>"); //INDICA SI ES VERDAD O NO QUE UN SUBSTRING ESTÁ EN EL STRING
+document.write(texto.toUpperCase()); //CAMBIA EL STRING A MAYÚSCULAS
+
+--------------------------
+ARRAY
+
+var matriz = new Array();
+var matriz = new Array(6);
+var matriz = {
+
+};
+matriz.sort(); //ORDENAR DE FORMA ALFABÉTICA
+matriz.sort((a,b) => a-b); //ORDENAR ASC
+matriz.sort((a,b) => b-a); //ORDENAR DESC
+matriz.reverse(); //DAR LA VUELTA
+matriz.includes("X");
+matriz.find(valor => valor = "X");
+.toString();
+.length;
+parseInt(); y variantes
+
+---------------------------
+BUCLES
+
+for(let i = 0; i<=10; i++){}
+for(valor in valores){}  //valor=indice en el array valores
+xxx.forEach((elemento, index) => {
+    
+});
+
+----------------------------
+FUNCIONES
+
+function xxx (param1, param2){}
+var xxx = (param1, param2) => xxxxxxxx;
+var xxx = valor => {
+    
+}

@@ -1,0 +1,16 @@
+document.getElementByID("");
+document.getElementByClassName(""); //Crea un Array HTMLColection con los elementos
+document.getElementByTagName(""); //Crea un Array HTMLColection con los elementos
+document.querySelector("");
+document.querySelectorAll(.zzz > y); //Crea un Array NodeList con los elementos
+
+xxx.innerHTML = "";
+xxx.styles.background = "";
+xxx.textContent; //EJ: Una etiqueta SPAN, DIV, SECTION, etc
+
+var X = document.createElement("");
+var Y = document.createTextNode("");
+X.appendChild(Y);
+xxx.innerHTML = X;
+
+xxx.children //Crea un Array HTMLColection con los elementos hijos de la etiqueta
