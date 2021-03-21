@@ -18,7 +18,7 @@ console.log(divs);
 for(var valor in divs){ // Bucle de los valores del array Divs
     if(divs[valor].textContent != undefined){ // Se verifica que sea un elemento valido o no sea Undefined
         var parrafo = document.createElement("p"); // Se crea un elemento P
-        var valorTexto = document.createTextNode(divs[valor].textContent); // Se crea un valor de texto con el contenido de cada elemento del array
+        var valorTexto = document.createTextNode(divs[valor].textContent); //! Con .textContent conviertes Object por String, etc// Se crea un valor de texto con el contenido de cada elemento del array
         parrafo.appendChild(valorTexto); // Se le añade el nodo de texto al elemento P
         document.querySelector("section").appendChild(parrafo); // Se añade/Append el elemento P al tag Section
         // escribir(divs[valor].textContent + "<br>");
