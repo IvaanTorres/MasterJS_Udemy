@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 de Arrays, DOM, BOM y eventos</title>
+    <script src="ejer1.js"></script>
+    <style>
+        .caja{
+            width: 200px;
+            text-align: center;
+            border: 5px dotted black;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" onsubmit="return false;">
+        <input type="text" name="" id="name" placeholder="Nombre">
+        <br>
+        <input type="text" name="" id="surname" placeholder="Apellidos">
+        <br>
+        <input type="number" name="" id="age" placeholder="Edad">
+        <br>
+        <button id="showData">Mostrar datos</button>
+        
+        <div class="caja">
+            <h3>Datos:</h3>
+            <hr>
+        </div>
+
+        <input type="submit" value="Enviar" id="submit">
+    </form>
+</body>
+</html>

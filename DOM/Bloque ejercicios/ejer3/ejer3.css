@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.container{
+    background-color: lightblue;
+    width: 40%;
+}
+
+.screen{
+    background-color: grey;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.number{
+    background-color: rgb(255, 255, 255);
+}
+.operator{
+    background-color: rgb(244, 29, 190);
+}
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80px;
+    cursor: pointer;
+}
+#equal{
+    width: 100%;
+}
+.buttons > div:hover{
+    background-color: rgb(109, 0, 91);
+}
