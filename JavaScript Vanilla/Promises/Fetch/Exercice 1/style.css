@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.result{
+    padding-top: 50px;
+}
+.nav{
+    transition: 1s;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    width: 100%;
+}
+.nav.nav3{
+    background-color: red;
+    animation: 2s movement ease-in-out;
+}
+@keyframes movement{
+    50%{top: -100%;}
+    100%{top: 0px;}
+}
+.menu.menu2{
+    clip-path: circle(130% at 50% 50%);
+}
+.nav .button{
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: orange;
+}
+.menu{
+    text-align: center;
+    font-weight: bold;
+    transition: 1s;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    clip-path: circle(0% at 100% 0);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu div{
+    color: white;
+    width: 100%;
+    background-color: rgb(21, 103, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.loadingContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1.5s;
+}
+
+.loading1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid grey;
+    border-top-color: red;
+    transition: ease;
+    animation: 0.5s spin infinite linear;
+}
+
+.loading2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid grey;
+    border-bottom-color: orange;
+    animation: 1s spin infinite linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.bounce{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-top: 50px;
+    border-radius: 50%;
+    animation: 1.5s bounce infinite ease-in-out both;
+}
+.bounce1{
+    animation-delay: -0.30s;
+}
+.bounce2{
+    animation-delay: -0.20s;
+}
+.bounce3{
+    animation-delay: -0.10s;
+}
+@keyframes bounce{
+    50%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+@keyframes spin{
+    100%{transform: rotate(360deg);}
+}
