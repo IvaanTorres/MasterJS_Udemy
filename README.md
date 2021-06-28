@@ -1,5 +1,5 @@
 # MasterJS_Udemy
-Ejercicios del Master en JS de Udemy (Victor Robles).
+Udemy JS Master Exercices (Victor Robles).
 
-Este repositorio va a ser usado para realizar ejercicios del master de JS que hace Victor Robles en Udemy.
-Durante el proceso usaré Git y GitHub para ir acostumbrandome a su uso.
+This repository will be used to learn modern JavaScript, TypeScript and some of its frameworks & libraries such as JQuery or MEAN Stack (MongoDB + Express JS + Angular + NodeJS).
+I'll be using in parallel Git and GitHub in order to get used to this way of working in team.
